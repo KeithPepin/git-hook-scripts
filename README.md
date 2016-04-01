@@ -6,7 +6,7 @@ This is just a repository of useful `git` hook scripts that I've found and / or 
 Other (better) folks than I have written better documentation about installing a `git` hook than I.  Check out [the git documentation on git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) for more details.
 
 ### Hooks
-1. pre-commit-reject-forbidden-code
+1. **pre-commit-reject-forbidden-code**
 
    This bash script hook checks for the presence of certain undesirable code snippets in the code being checked in and
    rejects the commit if it contains any of the following:
